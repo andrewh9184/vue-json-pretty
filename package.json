@@ -6,6 +6,8 @@
   "main": "vue-json-pretty.js",
   "scripts": {
     "dev": "node build/dev-server.js",
+    "install": "node build/build.js",
+    "postinstall": "node build/build.js",
     "build": "node build/build.js",
     "dist": "cross-env DIST_ENV=true npm run build",
     "e2e": "node test/e2e/runner.js",
